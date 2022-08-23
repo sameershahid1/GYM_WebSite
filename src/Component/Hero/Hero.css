@@ -1,0 +1,70 @@
+.hero
+{
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    border:3px solid cornflowerblue
+}
+
+.left-h
+{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    flex:3;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    border: 3px solid rgb(0, 255, 149);
+}
+
+.right-h 
+{
+    border: 2px solid burlywood;
+    flex: 1;
+}
+
+
+.the-best-ad
+{
+    margin-top: 4rem;
+    background-color: #363d42;
+    border: 2px solid black;
+    border-radius: 4rem;
+    width: fit-content;
+    padding:20px 13px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+
+.the-best-ad>span
+{
+    z-index:2;
+}
+
+.the-best-ad>div
+{
+    position:absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.hero-text
+{
+    border:3px solid darkmagenta;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-overflow:inherit;
+}
+

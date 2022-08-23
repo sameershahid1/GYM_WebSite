@@ -1,0 +1,27 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkblue;
+}
+
+.logo
+{
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid red;
+}
+
+.header-menu
+{
+    list-style-type: none;
+    display: flex;
+    gap:2rem;
+    border: 2px solid blueviolet;
+}
+
+.header-menu>li:hover 
+{
+    cursor: pointer;
+    color:var(--orange);
+}
