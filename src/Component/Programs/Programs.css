@@ -55,8 +55,9 @@
 
 .category>span:nth-of-type(2)
 {
-    font-size: 0.9rem;
-    line-height: 25px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
 } 
 
 .join-now
