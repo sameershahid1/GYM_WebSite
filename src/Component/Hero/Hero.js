@@ -1,6 +1,13 @@
 import React from 'react'
 import Header from '../Header/Header'
 
+/*Importing Images for Hero section*/
+import hero_image from '../../assets/hero_image.png'
+import hero_image_back from '../../assets/hero_image_back.png'
+import Heart from '../../assets/heart.png'
+import Calories from '../../assets/calories.png'
+
+/*CSS file*/
 import './Hero.css'
 
 const Hero = () => {
@@ -16,7 +23,7 @@ const Hero = () => {
               <span>the best fitness club in the town</span>
            </div>
 
-          {/*Heading*/}
+          {/*hero-Heading*/}
            <div className="hero-text">
               <div>
                 <span className="stroke-text">Shape </span>
@@ -32,6 +39,8 @@ const Hero = () => {
                 </span>
               </div>
            </div>
+
+           {/*hero-Figures*/}
            <div className="figures">
             <div>
                <span>+ 140</span>
@@ -46,8 +55,32 @@ const Hero = () => {
                <span> fitness programs</span>
             </div>
            </div>
+           {/*Buttons*/}
+           <div className="hero-buttons">
+              <button className='btn'>Get Started</button>
+              <button className='btn'>Learn More</button>
+           </div>
         </div>
-        <div className="right-h">Right side</div>
+        <div className="right-h">
+           <button className='btn'>Join Now</button>
+           <div className="heart-rate">
+              <img src={Heart} alt='Heart-rate'/>
+              <span>Heart Rate</span>
+              <span>116 bpm</span>
+           </div>
+
+           {/*Hero Images*/}
+              <img className='hero-image' src={hero_image} alt='Hero-imgage'/>
+              <img className='hero-image-back' src={hero_image_back} alt='Hero-imgage back'/>
+            {/*Calories*/}
+            <div className="calories">
+                <img src={Calories} alt="Calories" />
+                <div>
+                  <span>Calories burned</span>
+                   <span>220 kcal</span>                  
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
