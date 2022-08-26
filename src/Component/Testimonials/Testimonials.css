@@ -1,0 +1,100 @@
+.Testimonials
+{
+    display:flex;
+    gap:1rem;
+    padding: 0 2rem;
+}
+
+.left-t
+{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+    flex: 1 1;
+    gap: 2rem;
+}
+
+.left-t>:nth-child(1)
+{
+    color:var(--orange);
+    font-weight:bold;
+    font-size:1rem;
+}
+
+.left-t>:nth-child(2),.left-t>:nth-child(3)
+{
+   font-size: 3rem;
+   font-weight:bold;
+}
+
+.left-t>:nth-child(4)
+{
+   text-transform: none;
+   letter-spacing:2px;
+   line-height: 40px;
+   text-align: justify;
+}
+
+.right-t
+{
+    flex: 1;
+    position: relative;
+}
+
+.right-t>img
+{
+    position: absolute;
+    width:17rem;
+    height: 20rem;
+    object-fit: cover;
+    right:8rem;
+    top:2rem;
+
+}
+
+.right-t>:nth-child(1),
+.right-t>:nth-child(2)
+{
+    position: absolute;
+    width: 17rem;
+}
+
+.right-t>:nth-child(1)
+{
+    border:2px solid var(--orange);
+    background-color: transparent;
+    right:9rem;
+    top:0.9rem;
+    height: 20rem;
+}
+
+
+.right-t>:nth-child(2)
+{
+    background: var(--planCard);
+    right: 7rem;
+    top:4rem;
+    height: 19rem;
+}
+
+.arrows
+{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left:3rem;
+}
+
+.arrows>:nth-child(1)
+,.arrows>:nth-child(2)
+{
+    width:1.5rem;
+    cursor: pointer;
+}
+
+
+
+
+
