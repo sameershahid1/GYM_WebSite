@@ -1,0 +1,48 @@
+.Footer-container
+{
+    position: relative;
+}
+
+.Footer-container>hr
+{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.footer
+{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem 2rem;
+    height: 20rem;
+}
+
+.social-links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4rem;
+}
+
+.social-links>img
+{
+    width:2rem;
+    height:2rem;
+    cursor: pointer;
+}
+
+.logo-f
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-f>img
+{
+    width:10rem;
+}

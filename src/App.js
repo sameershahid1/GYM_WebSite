@@ -6,6 +6,8 @@ import Plans from './Component/Plans/Plans'
 import './App.css'
 import Testimonials from './Component/Testimonials/Testimonials'
 import Join from './Component/Join/Join'
+import Footer from './Component/Footer/Footer'
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Plans/>
       <Testimonials/>
       <Join/>
+      <Footer/>
     </div>
   )
 }
