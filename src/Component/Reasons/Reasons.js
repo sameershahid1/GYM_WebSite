@@ -28,22 +28,22 @@ const Reasons = () => {
         </div>
         
         <div className='details-r'>
-          <div>
-              <img src={tick} alt="Tick" />         
-              <span>over 140+ expert coachs</span>
-          </div>
-          <div>
-              <img src={tick} alt="Tick" />
-              <span>train smarter and faster than before</span>
-          </div>
-          <div>
-              <img src={tick} alt="Tick" />
-              <span>1 free program for new member</span>
-          </div>
-          <div>
-             <img src={tick} alt="" />
-             <span>reliable partners</span>
-          </div>
+           <div>
+               <img src={tick} alt="Tick" />         
+               <span>over 140+ expert coachs</span>
+           </div>
+           <div>
+               <img src={tick} alt="Tick" />
+               <span>train smarter and faster than before</span>
+           </div>
+           <div>
+               <img src={tick} alt="Tick" />
+               <span>1 free program for new member</span>
+           </div>
+           <div>
+              <img src={tick} alt="" />
+              <span>reliable partners</span>
+           </div>
         </div>
 
         <span style={{color:"gray",fontWeight:'normal'}}>OUR PARTNERS</span>

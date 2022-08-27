@@ -111,3 +111,14 @@
 }
 
 
+@media screen and (max-width:768px)
+{
+    .plans
+    {
+        flex-direction:column;
+    }    
+    .plan:nth-child(2)
+    {
+        transform: none;
+    }
+}
